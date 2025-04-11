@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static\style.css">
+  <title>Глобальное потепление</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-container">
+      <img src="static\GlobP.png" alt="Логотип" width="70" height="70">
+      <h1>Глобальное потепление</h1>
+    </div>
+
+    <hr>
+
+    <nav class="main-nav">
+      <a href="templates\index.html">Главная</a>
+      <span class="nav-separator"></span>
+      <a href="templates\reasons.html">Причины</a>
+      <span class="nav-separator"></span>
+      <a href="templates\consequences.html">Последствия</a>
+      <span class="nav-separator"></span>
+      <a href="#">О нас</a>
+    </nav>
+
+    <hr>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}  {# Содержимое страницы #}
+  </main>
+
+  <footer>
+    <p>© 2023 Глобальное потепление. Все права защищены.</p>
+    <p>Свяжитесь с нами: <a href="mailto:zumazazaz@gmail.com">zumazazaz@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
