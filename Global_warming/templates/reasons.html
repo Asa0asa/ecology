@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static\style.css">
+  <title>Глобальное потепление</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-container">
+      <img src="static\GlobP.png" alt="Логотип" width="70" height="70">
+      <h1>GLOBAL WARMING</h1>
+    </div>
+
+    <hr>
+
+    <nav class="main-nav">
+      <a href="/">Главная</a>
+      <span class="nav-separator"></span>
+      <b href="/2">Причины</b>
+      <span class="nav-separator"></span>
+      <a href="/3">Последствия</a>
+      <span class="nav-separator"></span>
+      <a href="/4">Викторина</a>
+      <span class="nav-separator"></span>
+      <a href="/5">О нас</a>
+    </nav>
+
+    <hr>
+  </header>
+
+  <main>
+    {% block content %}
+    <h1>Причины глобального потепления</h1>
+      <p>Здесь будет информация о причинах глобального потепления.</p>
+    <ul>
+      <li>Выбросы парниковых газов</li>
+      <li>Вырубка лесов</li>
+    </ul>
+    {% endblock %}
+  </main>
+
+  <footer>
+    <p>© 2025 Глобальное потепление. Все права защищены.</p>
+    <a href="mailto:zumazazaz@gmail.com">Связаться с нами.</a>
+  </footer>
+
+</body>
+</html>
+

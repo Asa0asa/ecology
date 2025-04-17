@@ -1,0 +1,105 @@
+.site-header {
+    background-color: #c7efc5; /* светло-серый фон */
+    padding: 10px;
+    text-align: center; /* Центрирование шапки по горизонтали */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Центрирование логотипа и заголовка */
+    margin-bottom: 5px;
+}
+
+.logo-container img {
+    margin-right: 10px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+}
+
+.nav-separator {
+    border-left: 1px solid black;
+    margin: 0 10px;
+}
+
+hr {
+    border: 1px solid #ccc; /* Светло-серая линия */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #f42525;
+}
+h2 {
+    color: #2b5a2c;
+}
+ul {
+    list-style-type: square;
+}
+footer {
+    background-color: #c7efc5;  /* Светло-серый */
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.list-item-container {
+    margin-bottom: 20px; /* Space between list items */
+    overflow: auto; /* Ensure proper clearing of floats */
+  }
+  
+  .list-image {
+    float: right; /* Image floats to the right */
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Space between image and text */
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  
+  
+
+  @media (max-width: 768px) { /* Adjust the 768px breakpoint as needed */
+    .list-image {
+      width: 100%; /* Make image full width */
+      max-width: 200px; /* Set a max width */
+      order: 0; /* Place image above text */
+      margin: 0 auto 10px; /* Center image and add margin */
+    }
+  }
+  
+
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-top: 10px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+  
